@@ -6,3 +6,10 @@
 - Mariana Ferreyra, 27 Años, San Miguel.
 - Roberto Roda, 38 Años, La Boca, CABA.
 - Marcos Sanhueza, 22 Años, Cutral Có.
+
+## Referencias
+- https://www.antiguacasanunez.com.ar
+- https://guitarrascasas.mercadoshops.com.ar
+- https://www.lacasadelinstrumentomusical.com.ar
+- https://kemuelmusica.com
+- https://lacasadelmusico.com.ar
