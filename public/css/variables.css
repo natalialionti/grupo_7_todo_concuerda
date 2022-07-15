@@ -1,0 +1,15 @@
+:root{ --colorAmarillo: #EAC926;
+    --colorAzul: #03264C;
+    --colorCeleste: #1259c3;
+    --colorGrisOscuro: #666;
+    --colorGrisClaro: #ebebeb;
+    --colorVerde: #39b54a;
+    --tamanioCuerposDeTexto: 12px;
+    --tamanioTitulares: 24px;
+    --tamanioPrecios: 18px;
+    --tamanioDescuentos: 16px;
+    --tamanioDescripciones: 16px;
+    
+    /*TIPOGRAFIA*/
+    --roboto: "Roboto", sans-serif;
+}
