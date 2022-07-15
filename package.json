@@ -6,7 +6,6 @@
   "description": "- Una tienda online de instrumentos de cuerda (guitarras, bajos, ukeleles) y algunos accesorios(cuedas, puas, estuches, correas, etc). Apuntando a personas q quieren comprar su primer instrumento o lo practican d forma amateur.",
   "version": "1.0.0",
   "main": "app.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
