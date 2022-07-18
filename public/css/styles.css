@@ -1,0 +1,4 @@
+@import "./normalize.css"; /* importa hoja nomalize */
+@import "./variables"; /* importa hoja con variables de tipografía, tamaño de letra y paleta de colores */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); /* importa fuente /*
+
