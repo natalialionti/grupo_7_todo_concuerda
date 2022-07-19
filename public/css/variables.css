@@ -1,12 +1,8 @@
-:root{ --colorAmarillo: #EAC926;
-    --colorAzul: #03264C;
-    --colorCeleste: #1259c3;
-    --colorGrisOscuro: #666;
-    --colorGrisClaro: #ebebeb;
-    --colorVerde: #39b54a;
-    --tamanioCuerposDeTexto: 12px;
-    --tamanioTitulares: 24px;
-    --tamanioPrecios: 18px;
+:root{ --negro: #1C0A00; 
+    --marronOscuro: #361500;
+    --marronIntermedio: #603601;
+    --marronClaro: #CC9544;
+    --grisClaro: #f0ede8;
     --tamanioDescuentos: 16px;
     --tamanioDescripciones: 16px;
     
