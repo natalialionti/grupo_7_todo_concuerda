@@ -1,11 +1,63 @@
 @import "./normalize.css"; /* importa hoja nomalize */
-@import "./variables"; /* importa hoja con variables de tipografía, tamaño de letra y paleta de colores */
+@import "./variables.css"; /* importa hoja con variables de tipografía, tamaño de letra y paleta de colores */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); /* importa fuente */
 
 /* CARRITO */
 
-.body {
-    font-family: var(--);
+/* CARRITO BODY */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+.body {
+    font-family: var(--roboto);
+}
 
+/* HEADER */
+
+.header {
+    display: flex;
+}
+
+.logo_marca {
+    background-color: var(--marronClaro);
+    flex-direction: row;
+}
+
+.logo_marca img {
+    padding: 15px;    
+}
+
+.logo_marca_titular{
+    color: var(--grisClaro);
+    flex-direction: row;
+}
+
+.icono_menu_hamburguesa {
+    text-align: center;
+    width: 25px;
+    margin: auto; 
+    background-color: var(--colorCeleste); 
+}
+
+/* MAIN */
+
+.main {
+    display: flex;
+}
+
+.tu_compra {
+    background-color: white;
+}
+
+.descripcion_producto{
+
+}
+
+.items_desglose_precios {
+    flex-direction: row;
+    justify-content: space-around;
+
+}

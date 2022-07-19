@@ -1,0 +1,11 @@
+:root{ --negro: #1C0A00; 
+    --marronOscuro: #361500;
+    --marronIntermedio: #603601;
+    --marronClaro: #CC9544;
+    --grisClaro: #f0ede8;
+    --tamanioDescuentos: 16px;
+    --tamanioDescripciones: 16px;
+    
+    /*TIPOGRAFIA*/
+    --roboto: "Roboto", sans-serif;
+}
