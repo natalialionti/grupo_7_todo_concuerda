@@ -1,0 +1,62 @@
+/* CARRITO BODY */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    font-family: var(--roboto);
+}
+
+/* HEADER */
+
+.header {
+    flex-wrap: wrap;
+    background-color: var(--marronClaro);
+}
+
+.logo_marca {
+    display:flex;
+    flex-direction: row;
+    color: var(--grisClaro);
+    gap: 20px;
+    align-items: center;
+}
+
+.logo_marca img {
+    padding: 20px;    
+}
+
+.icono_menu_hamburguesa {
+    text-align: center;
+    width: 35px;
+    margin: auto; 
+    background-color: var(--colorCeleste); 
+    padding:10px;
+}
+
+/* MAIN */
+
+.main {
+    display: flex;
+}
+
+.tu_compra {
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.descripcion_producto{
+
+}
+
+.items_desglose_precios {
+    flex-direction: row;
+    justify-content: space-around;
+
+}
