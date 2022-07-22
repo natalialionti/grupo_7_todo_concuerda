@@ -18,28 +18,28 @@
 /* HEADER */
 
 .header {
-    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--marronClaro);
 }
 
 .logo_marca {
-    background-color: var(--marronClaro);
+    display:flex;
     flex-direction: row;
+    color: var(--grisClaro);
+    gap: 20px;
+    align-items: center;
 }
 
 .logo_marca img {
-    padding: 15px;    
-}
-
-.logo_marca_titular{
-    color: var(--grisClaro);
-    flex-direction: row;
+    padding: 20px;    
 }
 
 .icono_menu_hamburguesa {
     text-align: center;
-    width: 25px;
+    width: 35px;
     margin: auto; 
     background-color: var(--colorCeleste); 
+    padding:10px;
 }
 
 /* MAIN */
@@ -50,7 +50,12 @@
 
 .tu_compra {
     background-color: white;
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
 }
+
 
 .descripcion_producto{
 
