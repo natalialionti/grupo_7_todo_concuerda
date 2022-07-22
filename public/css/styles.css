@@ -1,4 +1,17 @@
 @import "./normalize.css"; /* importa hoja nomalize */
 @import "./variables.css"; /* importa hoja con variables de tipografía, tamaño de letra y paleta de colores */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); /* importa fuente */
-@import "/css/carrito.css" 
+@import "/css/carrito.css";
+
+:root{ --negro: #1C0A00; 
+    --marronOscuro: #361500;
+    --marronIntermedio: #603601;
+    --marronClaro: #CC9544;
+    --grisClaro: #f0ede8;
+    --tamanioDescuentos: 16px;
+    --tamanioDescripciones: 16px;
+    --tamanioTitulares:20px;
+
+    /*TIPOGRAFIA*/
+    --roboto: "Roboto", sans-serif;
+}
