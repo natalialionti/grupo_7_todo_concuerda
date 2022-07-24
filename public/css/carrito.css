@@ -1,18 +1,26 @@
 /* CARRITO BODY */
-* {
-    box-sizing: border-box;
+
+* { 
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .body {
     font-family: var(--roboto);
+    min-height: 100%;
+}
+
+.html {
+    min-height: 100%;
 }
 
 /* HEADER */
 
 .header {
+    display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     background-color: var(--marronClaro);
 }
 
@@ -28,7 +36,6 @@
     padding: 20px;    
 }
 
-
 .icono_menu_hamburguesa i {
     display: flex;
     justify-content: center;
@@ -39,14 +46,16 @@
     margin: auto; 
 }
 
+
 /* MAIN */
 
 .main {
     display: flex;
+
 }
 
 .tu_compra {
-    background-color: white;
+    background-color: var(--grisClaro);
     display:flex;
     flex-direction: row;
     gap: 20px;
@@ -75,45 +84,88 @@
 .cuerpo_principal{
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: space-around;
     gap:15px;
 }
 
-.descripcion_precio{
-    flex-grow: 0.8;
-    padding: 50px;
-    justify-content: space-between;
+.descripcion_precio {
+    display: flex;
+    justify-content: column;
+    gap: 200px;
 }
 
 .items_desglose_precios ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+    padding-top: 35px;  
+    padding-bottom: 10px;  
+}
+
+.cuadrado{
+    height: 80px;
+    width: 80px;
+    background-color: var(--grisClaro);
+    box-shadow: 5px 5px 5px var(--marronIntermedio);
+}
+
+.linea_cuadrados{
+    display:flex;
+    justify-content: row;
+    gap: 10px;
 }
 
 .descripcion_producto{
-    padding: 50px;
+    display: flex;
+    padding: 40px 40px 40px 20px;
+    gap: 30px;
+    flex-direction: column;
 }
 
-.items_desglose_precios {
+.items_desglose_precios ul {
+    display:flex;
     flex-direction: row;
-    justify-content: space-around;
-
+    gap: 5px;
 }
+
+.descripcion_pago{
+ padding-top:210px;
+ display: flex;
+ gap:40px;
+}
+
+.descripcion_pago ul{
+    display: block;
+    gap:30px;
+   }
 
 .detalle_producto{
-    padding:20px;
+    padding-top:20px;
 }
 
+.borrar_carrito{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    gap: 10px;
+}
+
+.borrar_carrito p {
+    font-size: 16px;
+    font-weight: bold;
+}
 
 /* FOOTER */
 
 .finalizar_compra {
+    display: flex;
     height: 80px;
     background-color: var(--marronClaro);
-    display: flex;
+    justify-content: end;
+    gap: 15px;
     align-items: center;
+    border: 1px var(--grisClaro);
+    border: solid var(--grisClaro) 1px;
 }
 
 .finalizar_compra h3 {
@@ -122,4 +174,21 @@
     background-color: var(--marronClaro);
     text-align: right;
     margin-right: 40px;
+}
+
+.finalizar_compra i {
+    color: var(--grisClaro);
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 60%;
+    border: 1px solid var(--grisClaro);
+    align-items: center;
+}
+
+.imagen_tarjetas_credito{
+    width: 180px;
+    margin: 20px;
 }
