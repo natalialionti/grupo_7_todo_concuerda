@@ -3,7 +3,7 @@
 
 ## Integrantes
 - Natalia Lionti, 34 Años, San Miguel.
-- Mariana Ferreyra, 27 Años, San Miguel.
+- Mariana Ferreyra, 28 Años, San Miguel.
 - Roberto Roda, 38 Años, La Boca, C.A.B.A.
 - Marcos Sanhueza, 22 Años, Cutral Có.
 
