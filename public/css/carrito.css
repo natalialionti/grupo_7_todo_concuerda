@@ -7,13 +7,12 @@
 }
 
 .body {
+    box-sizing: border-box;
+    width: 100%;
     font-family: var(--roboto);
     min-height: 100%;
-}
+    }
 
-.html {
-    min-height: 100%;
-}
 
 /* HEADER */
 
@@ -22,6 +21,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     background-color: var(--marronClaro);
+    width: 100%;
 }
 
 .logo_marca {
@@ -50,9 +50,13 @@
 /* MAIN */
 
 .main {
-    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    width: 100%;   
+    justify-content: center;
+    margin: 0 auto; 
+    }
 
-}
 
 .tu_compra {
     background-color: var(--grisClaro);
@@ -79,19 +83,22 @@
     width: 30px;
     height: 30px;
     background-color: #FFF;
+    color: black;
     }
+
 
 .cuerpo_principal{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     gap:15px;
+    max-height: 100%;
 }
 
 .descripcion_precio {
     display: flex;
     justify-content: column;
     gap: 200px;
+    padding: 10px 40px 40px 120px
 }
 
 .items_desglose_precios ul {
@@ -117,7 +124,7 @@
 
 .descripcion_producto{
     display: flex;
-    padding: 40px 40px 40px 20px;
+    padding: 40px 40px 40px 120px;
     gap: 30px;
     flex-direction: column;
 }
@@ -126,6 +133,8 @@
     display:flex;
     flex-direction: row;
     gap: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .descripcion_pago{
@@ -135,8 +144,9 @@
 }
 
 .descripcion_pago ul{
-    display: block;
-    gap:30px;
+    display: flex;
+    gap:15px;
+    flex-direction: column;
    }
 
 .detalle_producto{
@@ -173,11 +183,11 @@
     color: var(--grisClaro);
     background-color: var(--marronClaro);
     text-align: right;
-    margin-right: 40px;
+    margin-right: 110px;
 }
 
 .finalizar_compra i {
-    color: var(--grisClaro);
+    color: var(--marronIntermedio);
     display: block;
     font-size: 16px;
     padding: 5px;
