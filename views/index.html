@@ -8,20 +8,57 @@
     <title>Todo Concuerda</title>
 </head>
 
-<body>
-    <header>
-        <div>
+<body class="index">
+    <header class="index__header">
+        <div class="index__header__logo">
             <img src="/images/logo.jpeg" alt="">
         </div>
-        <nav>
-            <img width= "100" src="/images/menu.png" alt="">
-            <img width= "100" src="/images/carrito.png" alt="">
-        </nav>
+        <button class="index__header" onclick="document.querySelector('.index__header__nav--navigation').classList.toggle('index__show'); document.querySelector('.index__header__nav--user').classList.toggle('index__show')">
+            <i class="fa fa-bars"></i> Menu </button>
+            <img width="22" src="/images/carrito.png" alt="">
+        
     </header>
-
-    
-    
-
-
+    <main class="main__section"></main>
+      <section class="banner__main__section">
+        <img width="520" src="/images/banner.jpg">
+      </section>
+      <section>
+          <h2>Ofertas Imperdibles</h2>
+      </section>
+      <section>
+          <article>
+              <img width="140" src="/images/guitarra.jpg" alt="">
+              <h1>Guitarra Criolla</h1>
+                 <p> Marca: Gracia </p>
+                 <p>Modelo: M1</p>
+                 <p>Tipo: Clásica</p>
+                 <p>Color: Natural</p>
+                 <p>Precio: $5.800</p> 
+          </article>
+          <article>
+            <img width="140" src="/images/violin.jpg" alt="">
+            <h1>Violin</h1>
+               <p> Marca: Segovia </p>
+               <p>Modelo: VP103H12 </p>
+               <p>Tipo: Acústico</p>
+               <p>Tamaño: 1/2</p>
+               <p>Precio: $14.000</p> 
+        </article>
+        <article>
+            <img width="140" src="/images/bajo.jpg" alt="">
+            <h1>Bajo</h1>
+               <p> Marca: SX </p>
+               <p>Modelo:FPB-62 </p>
+               <p>Linea: Precisión</p>
+               <p>Cuerpo Laqueado</p>
+               <p>Precio: $19.700</p> 
+        </article>
+      </section>
 </body>
+<footer>
+    <h2>Ubicación</h2>
+    <p>Nos encontramos en Presidente Perón 4444, Buenos Aires.</p>
+    <h2>Medios de pago</h2>
+    <h2>Contacto</h2>
+</footer>
     
