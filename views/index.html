@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo Concuerda</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Todo Concuerda | Home</title>
+    <script src="https://kit.fontawesome.com/ae7c764a16.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 
 <body class="index">
@@ -13,45 +15,75 @@
         <div class="index__header__logo">
             <img src="/images/logo.jpeg" alt="">
         </div>
-        <button class="index__header" onclick="document.querySelector('.index__header__nav--navigation').classList.toggle('index__show'); document.querySelector('.index__header__nav--user').classList.toggle('index__show')">
+        <nav class="index__header__nav--search">
+            <form action="">
+                <div class="form__box__search">
+                    <input type="text" placeholder="Busqueda" name="keywords"><button type="submit" class="form__button--search"><i class="fa fa-search"></i></button>
+                </div>
+            </form>
+        </nav>
+        <img class="carrito__index__nav" width="22" src="/images/carrito.png" alt="">
+        <ul class="index__header__nav--user">
+            <li><a href="/login">Login</a></li>
+            <li><a href="/register">Registro</a></li>
+        </ul>
+        <button class="menu__index__header" onclick="document.querySelector('.index__header__nav--navigation').classList.toggle('index__show'); document.querySelector('.index__header__nav--user').classList.toggle('index__show')">
             <i class="fa fa-bars"></i> Menu </button>
-            <img width="22" src="/images/carrito.png" alt="">
+            <ul class="menu__index__nav--navigation">
+                <li><a href="">Guitarras</a></li>
+                <li><a href="">Violines</a></li>
+                <li><a href="">Bajos</a></li>
+                <li><a href="">Accesorios</a></li>
+            </ul>
+            
         
     </header>
-    <main class="main__section"></main>
       <section class="banner__main__section">
-        <img width="520" src="/images/banner.jpg">
+            <img  src="/images/banner.jpg" alt="">
       </section>
-      <section>
+
+      <section class="oferta__main__section">
           <h2>Ofertas Imperdibles</h2>
       </section>
-      <section>
-          <article>
+
+      <section class="index__main__section--products general__main__section">
+          <article class="index__main__section__instrument--product">
+              <figure>
               <img width="140" src="/images/guitarra.jpg" alt="">
-              <h1>Guitarra Criolla</h1>
+            </figure>
+              <h2>Guitarra Criolla</h2>
                  <p> Marca: Gracia </p>
                  <p>Modelo: M1</p>
                  <p>Tipo: Clásica</p>
                  <p>Color: Natural</p>
                  <p>Precio: $5.800</p> 
+                 <a class="general__buttom__product" href="/product-detail">Ver más</a>
           </article>
-          <article>
-            <img width="140" src="/images/violin.jpg" alt="">
-            <h1>Violin</h1>
+          <article class="index__main__section__instrument--product">
+              <figure>
+                <img width="140" src="/images/violin.jpg" alt="">
+              </figure>
+            
+            <h2>Violin</h2>
                <p> Marca: Segovia </p>
                <p>Modelo: VP103H12 </p>
                <p>Tipo: Acústico</p>
                <p>Tamaño: 1/2</p>
                <p>Precio: $14.000</p> 
+               <a class="general__buttom__product" href="/product-detail">Ver más</a> 
         </article>
-        <article>
-            <img width="140" src="/images/bajo.jpg" alt="">
-            <h1>Bajo</h1>
+        <article class="index__main__section__instrument--product">
+            <figure>
+                <img width="140" src="/images/bajo.jpg" alt="">
+            </figure>
+           
+            <h2>Bajo</h2>
                <p> Marca: SX </p>
                <p>Modelo:FPB-62 </p>
                <p>Linea: Precisión</p>
                <p>Cuerpo Laqueado</p>
                <p>Precio: $19.700</p> 
+               <a class="general__buttom__product" href="/product-detail">Ver más</a> 
         </article>
       </section>
 </body>
