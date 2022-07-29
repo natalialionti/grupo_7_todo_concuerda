@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); /* importa fuente */
 @import "/css/carrito.css";
 @import "/css/index.css";
-@import "/css/detailProduct.css";
+@import "/css/productDetail.css";
 
 :root{ --negro: #1C0A00; 
     --marronOscuro: #361500;

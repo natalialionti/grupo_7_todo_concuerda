@@ -8,18 +8,15 @@
     justify-content: space-between;
     gap: 10px;
 }
-.index__header__logo img{
+/*.index__header__logo img{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
     padding-top: 0;
     padding-bottom: 0;
- 
-    
-    
 
-}
+}*/
 .index__header__seen{
     border: 1px solid #361500;
     background: none;
