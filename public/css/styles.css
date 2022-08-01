@@ -1,12 +1,5 @@
-<<<<<<< HEAD
 @import "./normalize.css"; /* importa hoja normalize */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); /* importa fuente */
-=======
-@import "./normalize.css"; /* importa hoja nomalize */
-@import "./variables.css"; /* importa hoja con variables de tipografía, tamaño de letra y paleta de colores */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); /* importa fuente */
-@import "/css/carrito.css";
->>>>>>> natalia
 
 :root{ --negro: #1C0A00; 
     --marronOscuro: #361500;
@@ -15,16 +8,7 @@
     --grisClaro: #f0ede8;
     --tamanioDescuentos: 16px;
     --tamanioDescripciones: 16px;
-<<<<<<< HEAD
    
     /*TIPOGRAFIA*/
     --roboto: "Roboto", sans-serif;
 }
-=======
-    --tamanioTitulares:20px;
-
-    /*TIPOGRAFIA*/
-    --roboto: "Roboto", sans-serif;
-    
-}
->>>>>>> natalia
