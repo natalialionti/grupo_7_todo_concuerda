@@ -1,23 +1,16 @@
 {
-  "dependencies": {
-    "express": "^4.18.1"
-  },
-  "name": "grupo_7_todo_concuerda",
-  "description": "- Una tienda online de instrumentos de cuerda (guitarras, bajos, ukeleles) y algunos accesorios(cuedas, puas, estuches, correas, etc). Apuntando a personas q quieren comprar su primer instrumento o lo practican d forma amateur.",
-  "version": "1.0.0",
-  "main": "app.js",
+  "name": "grupo-7-todo-concuerda",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/natalialionti/grupo_7_todo_concuerda.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/natalialionti/grupo_7_todo_concuerda/issues"
-  },
-  "homepage": "https://github.com/natalialionti/grupo_7_todo_concuerda#readme"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  }
 }
