@@ -1,0 +1,30 @@
+:root{ --negro: #1C0A00; 
+    --marronOscuro: #361500;
+    --marronIntermedio: #603601;
+    --marronClaro: #CC9544;
+    --grisClaro: #f0ede8;
+    --tamanioDescuentos: 16px;
+    --tamanioDescripciones: 16px;
+   
+    /*TIPOGRAFIA*/
+    --roboto: "Roboto", sans-serif;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:100%;
+    background-color: var(--marronClaro);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+li{
+    list-style:none ;
+}
+ul{
+    padding-left: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}

@@ -1,0 +1,37 @@
+/* CARRITO BODY */
+/* MAIN */
+
+.carrito__main {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px;
+    }
+
+.carrito__main__section__product {
+    display: flex;
+    height: 50vh;
+    gap: 5px;
+}
+.carrito__main__section__product--detail, .carrito__main__section__product--buy {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.carrito__main__section__product--detail img {
+    width: 120px;
+}
+
+
+.carrito__main__section__product--buy table{
+    font-size: 10px;
+}
+.carrito__main__section__product--buy .buy-box {
+    width: 50px;
+    height: 50px;
+    border: 1px solid grey;
+    text-align: center;
+    vertical-align: middle;
+}

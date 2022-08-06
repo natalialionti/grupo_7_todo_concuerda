@@ -1,0 +1,54 @@
+<%- include('./partials/head',{
+  title : 'Carrito'
+}) %> 
+
+<body class="carrito">
+  <%- include('./partials/header') %> 
+
+<main class="carrito__main">
+        <h3> Tu compra </h3>
+    <hr>
+    <section class="carrito__main__section__product">
+      <article class="carrito__main__section__product--detail">
+            <img src="/images/imagen_compra.jpg">
+          <div class="detalle_producto">
+            <h5>Violín Yamaha HGF 9765</h5>
+            <div class="borrar_carrito">
+              <i class="fa-solid fa-trash"></i>
+              <p>Borrar</p>
+            </div>
+          </div>     
+        </div>
+      </article>
+      <article class="carrito__main__section__product--buy">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Precio</th>
+              <th scope="col">Cantidad</th>
+              <th scope="col">Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="buy-box">$2000</td>
+              <td class="buy-box">2</td>
+              <td class="buy-box">$4000</td>
+            </tr>
+          </tbody>
+        </table>
+        <ul>
+          <li>Subtotal <span>$</span></li>
+          <li>Envío <span>$</span></li>
+          <li>TOTAL <span>$</span></li>
+        </ul>
+      </article>
+    </section>
+ 
+
+  </main>
+  <%- include('./partials/footer') %> 
+
+</body>
+</html>
+  
