@@ -1,6 +1,13 @@
 /* CARRITO BODY */
 /* MAIN */
 
+.carrito {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+
 .carrito__main {
     width: 95%;
     margin: 0 auto;
@@ -50,6 +57,7 @@
     padding-right: 15px;
 }
 
+
 .carrito_detalle_producto {
     display: flex;
     padding-left: 15px;
@@ -90,9 +98,10 @@
 }
 
 .carrito__main__section__product--buy li{
-    font-size: 12px;
+    font-size: 10px;
     padding-top: 10px;
     font-weight: 600;
+    text-align: justify;
 }
 
 .carrito_imagen_tarjetas_credito{
@@ -110,6 +119,17 @@
     align-items: center;
 
 }
+
+.carrito_compra_segura{
+    display: flex;
+    flex-direction: column;    
+}
+
+.carrito_compra_segura p {
+    font-size: 8px;
+    font-weight: 600;
+} 
+
 
 .carrito_finalizar_compra {
     display: flex;
