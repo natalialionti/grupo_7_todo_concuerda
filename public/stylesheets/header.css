@@ -58,6 +58,12 @@
     text-align: center;
 }
 
+.header__herramientas{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
 .show {
     display: block;
 }
@@ -96,10 +102,15 @@
         display:flex;
         justify-content: space-between;
         text-align: center;
-        padding: 15px;
+        padding-right: 50px;
         gap: 15px;
 
   
+    }
+    .header__herramientas{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
     }
     .header__form--user{
         display: inline;
@@ -109,7 +120,7 @@
 
 }
 
-@media (min-width:754px){
+@media (min-width:768px){
 
     .header{
         flex-wrap: nowrap;
@@ -134,6 +145,13 @@
 
   
     }
+
+    .header__herramientas{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
     .header__form--user{
         display: inline;
     }
