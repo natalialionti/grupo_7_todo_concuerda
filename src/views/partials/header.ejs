@@ -2,33 +2,28 @@
     <div class="header__row">
         <div class="header__logo">
             <a href="/"><img src="/images/logo.jpeg"></a>
-          </div>
+        </div>
           <buttom class="header__seen"
           onclick="document.querySelector('.header__nav').classList.toggle('show')"><i class="fa fa-bars"></i>
-        </buttom>
+          </buttom>
     </div>   
     
     <div class="header__form">
-      <ul class="header__form--user">
+      <nav class="header__nav"> 
+        
         <li><a href="/users/login">Login</a></li>
         <li><a href="/users/register">Registro</a></li>
-      </ul>
-        <form action="">
-
-      <input type="text" placeholder="Busqueda" name="keywords"><button type="submit"
-        class="form__buttom--search"><i class="fa fa-search"></i></button>
-</form>
-
-
-    <a href="/carrito"><img class="header__img__cart" src="/images/carrito.png" alt=""></a>
-</div>
-    <nav class="header__nav"> 
-      <ul class="header__nav--categories">
-        <li><a href="">Guitarras</a></li>
-        <li><a href="">Violines</a></li>
-        <li><a href="">Bajos</a></li>
+        <li><a href="">Guitarras </a></li>
+        <li><a href="">Violines </a></li>
+        <li><a href="">Bajos </a></li>
         <li><a href="">Accesorios</a></li>
-      </ul>
+      </nav>
+
+      <form action="">
+         <input type="text" placeholder="Busqueda" name="keywords"><button type="submit"
+        class="form__buttom--search"><i class="fa fa-search"></i></button>
+     </form>
+       <a href="/carrito"><img class="header__img__cart" src="/images/carrito.png" alt=""></a>
+
     </div>
-    </nav>
-  </header>
+</header>

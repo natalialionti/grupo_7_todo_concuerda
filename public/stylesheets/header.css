@@ -76,6 +76,11 @@
         gap: 20px;
     }
 
+    .header__logo img{
+        border-radius: 85%;
+        width: 100%;
+    }
+
     .icono_menu_hamburguesa{
         display: none;
     }
@@ -84,8 +89,13 @@
         display:none;
     }
 
-    .header__nav{
+    .header__nav {
         display:flex;
+        justify-content: space-between;
+        text-align: center;
+        padding: 15px;
+        gap: 15px;
+
   
     }
     .header__form--user{
@@ -93,5 +103,40 @@
     }
 
     
+
+}
+
+@media (min-width:754px){
+
+    .header{
+        flex-wrap: nowrap;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .icono_menu_hamburguesa{
+        display: none;
+    }
+
+    .header__seen{
+        display:none;
+    }
+
+    .header__nav {
+        display:flex;
+        justify-content: space-between;
+        text-align: center;
+        padding: 15px;
+        gap: 15px;
+
+  
+    }
+    .header__form--user{
+        display: inline;
+    }
+
+    
+
+
 
 }
