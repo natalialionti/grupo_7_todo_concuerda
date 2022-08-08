@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: var(--marronClaro);
+    background-color: var(--marronIntermedio);
     width: 100%;
     align-items: center;
     padding: 10px;
@@ -18,9 +18,9 @@
 }
 
 .header__seen{
-    border: 1px solid #361500;
+    border: 1px solid #1C0A00;
     background: none;
-    color: #361500;
+    color: #1C0A00;
     padding: 12px;
     border-radius: 7px;
     width: 50px;
@@ -43,7 +43,9 @@
     justify-content: space-between;
     align-items: center;
 }
-
+.header__form--user{
+    display: none;
+}
 .header__img__cart {
     width: 35px;
 }
@@ -64,4 +66,32 @@
     padding-bottom:15px;
     text-align: center;
     margin: auto; 
+}
+
+@media (min-width:1024px){
+
+    .header{
+        flex-wrap: nowrap;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .icono_menu_hamburguesa{
+        display: none;
+    }
+
+    .header__seen{
+        display:none;
+    }
+
+    .header__nav{
+        display:flex;
+  
+    }
+    .header__form--user{
+        display: inline;
+    }
+
+    
+
 }
