@@ -1,11 +1,26 @@
+.form{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+    background: #fff;
+}
+
 .form_box{
-    margin-bottom: 25px;
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .form_label{
+    display: flex;
     width: 100%;
-    margin-bottom: 10px;
     font-size: 15px;
+    justify-content: center;
+    align-items: center;
 }
 
 .form_input{
@@ -14,6 +29,12 @@
     border: none;
     border-bottom: 1px solid silver;
     outline: none;
+}
+
+.form_div_span{
+    display: flex;
+    color: red;
+    font-size: 11px;
 }
 
 .form_button_cancel{
@@ -28,11 +49,18 @@
 .form_button_submit{
     display: inline-block;
     padding: 13px;
-    background-color: orangered;
+    background-color: #603601;
     color: #fff;
     text-align: center;
     border: none;
-    font-size: 12px;
+    font-size: 14px;
+}
+
+.form_box_buttom{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-around;
 }
 
 .register{
@@ -46,4 +74,17 @@
    padding: 20px;
    padding-top: 0;
    padding-bottom: 0;
+}
+
+input:focus{
+    color: brown;
+    font-weight: bolder;
+}
+
+.form__input_checkbox{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
 }

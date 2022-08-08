@@ -1,8 +1,22 @@
 .register h1{
+    display: inline-block;
     text-align: center;
-    margin: 30px 0;
+    margin: 30px 25% 20px;
+    background: #603601;
+    font-style: normal ;
 }
 
 .register_main_section{
-    padding: 10px;
+    padding: 20px;
+}
+
+@media (min-width:768px){
+    .register_main_section{
+        width: 600px;
+        margin: 30px auto;
+    }
+    .register h1 {
+        display: flex;
+        text-align: center;
+    }
 }
