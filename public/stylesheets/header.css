@@ -38,6 +38,7 @@
 }
 
 .header__form {
+    flex-direction: column;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -47,6 +48,8 @@
     display: none;
 }
 .header__img__cart {
+    display: flex;
+    justify-content: space-between;
     width: 35px;
 }
 

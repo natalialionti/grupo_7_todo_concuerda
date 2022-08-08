@@ -1,7 +1,8 @@
 .index__main{
-    background-color: #CC9544;
     display: flex;
+    background-color: #CC9544;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .banner__main__section{
@@ -74,24 +75,28 @@
 
  @media (min-width:1024){
 
-    .banner__main__section{
+
+    .banner__main__section {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
 
     }
 
-    .oferta__main__section h2{
+    .oferta__main__section{
+        display: flex;
         font-family: sans-serif;
         font-weight: bold;
         text-align: center;
-        display: flex;
+        margin: auto;
         padding: 10px;
         gap: 15px;
 
     }
-
-    
+    .index__main__section__instrument--product{
+        display: flex;
+        width: 30%; 
+    }
     
  }
 
