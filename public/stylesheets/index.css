@@ -5,12 +5,12 @@
     flex-direction: column;
 }
 
-.banner__main__section{
+.banner__section__image{
 
     flex-wrap: wrap;
     width:100% ;
     justify-content: center;
-    display: none;
+    display: flex;
 
 
 }
@@ -75,8 +75,7 @@
 
  @media (min-width:1024){
 
-
-    .banner__main__section {
+    .index__main{
         display: flex;
         flex-wrap: wrap;
         width: 100%;
@@ -93,12 +92,16 @@
         gap: 15px;
 
     }
-    .index__main__section__instrument--product{
+    .index__main__section--products{
         display: flex;
-        width: 30%; 
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+         
     }
+
     
+ 
+
+
  }
-
-
-
