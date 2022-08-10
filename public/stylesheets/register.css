@@ -1,22 +1,22 @@
 .register h1{
-    display: inline-block;
+    width: 210px;
     text-align: center;
-    margin: 30px 25% 20px;
+    color:white ;
+    margin: 30px auto;
     background: #603601;
     font-style: normal ;
+    padding: 10px;
+    border-radius: 5%;
 }
 
-.register_main_section{
+.register__main_section{
     padding: 20px;
 }
 
 @media (min-width:768px){
-    .register_main_section{
-        width: 600px;
+    .register__main_section{
+        width: 450px;
         margin: 30px auto;
     }
-    .register h1 {
-        display: flex;
-        text-align: center;
-    }
+   
 }

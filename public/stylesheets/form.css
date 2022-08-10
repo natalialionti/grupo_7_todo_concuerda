@@ -1,21 +1,23 @@
 .form{
-    border: 1px solid #fff;
-    border-radius: 5px;
-    padding: 20px;
-    width: 100%;
+    width: 90%;
+    padding: 30px;
+    margin: auto;
     background: #fff;
+    border-radius: 5px;
 }
 
-.form_box{
+.form__box{
     display: flex;
-    margin-bottom: 20px;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
+    width: 100%;
+    padding: 1px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    border: none;
 }
 
-.form_label{
+.form__label{
     display: flex;
     width: 100%;
     font-size: 15px;
@@ -23,40 +25,40 @@
     align-items: center;
 }
 
-.form_input{
-    width: 100%;
+.form__input{
     height: 30px;
     border: none;
     border-bottom: 1px solid silver;
     outline: none;
 }
 
-.form_div_span{
+.form__div_span{
     display: flex;
     color: red;
     font-size: 11px;
 }
 
-.form_button_cancel{
-    display: inline-block;
-    padding: 10px;
+.form__button_cancel{
+    padding: 13px;
+    margin: 10px;
     background-color: gray;
     color: #fff;
     text-align: center;
-    border: none;
+    border-radius: 5%;
 }
 
-.form_button_submit{
-    display: inline-block;
+.form__button_submit{
     padding: 13px;
+    margin: 10px;
     background-color: #603601;
     color: #fff;
     text-align: center;
     border: none;
     font-size: 14px;
+    border-radius: 5%;
 }
 
-.form_box_buttom{
+.form__box_buttom{
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
@@ -84,7 +86,7 @@ input:focus{
 .form__input_checkbox{
     display: flex;
     gap: 10px;
-    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
+    padding: 1px;
 }
