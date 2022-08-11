@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #f1ce76;
+    padding: 15px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 15px;
+    gap: 5px;
+ }
+
+.footer_ubicación p {
+    font-size: 10px;
+    gap:5px;
+}
+
+.footer h2 {
+    font-size: 12px;
+    font-style: oblique;
+    font-weight: 600;
+    margin:0px;
+}
+
+.footer_contacto {
+    padding-top: 15px;
+    margin:0px;
+}
