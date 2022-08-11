@@ -3,25 +3,34 @@
     flex-direction: column;
     background-color: #f1ce76;
     padding: 15px;
-    width: 95%;
-    margin: 0 auto;
-    padding: 15px;
     gap: 5px;
+    font-size: 16px;
+    align-items: center;
  }
 
-.footer_ubicación p {
-    font-size: 10px;
-    gap:5px;
-}
+
 
 .footer h2 {
     font-size: 12px;
     font-style: oblique;
     font-weight: 600;
-    margin:0px;
+    margin: 10px 0;
 }
 
-.footer_contacto {
-    padding-top: 15px;
-    margin:0px;
+.footer_medios_de_pago, .footer_contacto {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer_contacto i {
+    font-size: 20px;
+}
+
+@media (min-width:768px) {
+    .footer{
+        flex-direction: row;
+        justify-content: space-around;
+        height: 20vh;
+     }
 }

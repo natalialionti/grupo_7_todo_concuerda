@@ -1,8 +1,6 @@
 .index__main{
-    display: flex;
     background-color: #CC9544;
-    flex-wrap: wrap;
-    flex-direction: column;
+   
 }
 
 .banner__section__image{
@@ -27,77 +25,83 @@
 .index__main__section--products{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
+    justify-content: space-between;
     gap: 30px;
     margin-bottom: 30px;
 
 }
 .index__main__section__instrument--product{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     width: 90%;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-between;
 
 }
-.index__main__section__instrument--product figure img{
+.index__main__section__instrument--product img{
+       width: 100%;
+}
+
+.index__main__section__instrument--product ul li span{
     
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-        padding-top: 0;
-        padding-bottom: 0;
-     
-     
+    font-weight: 600;
+  
+  
+}
+
+.index__main__section__instrument--product ul hr{
+    
+    margin: 8px 0;
+  
+  
 }
 .index__main__section__instrument--product h2 {
     margin: 20px 0;
+    font-weight: 600;
 }
 
 
 .general__buttom__product{
-    display:initial;
-    margin-top: 20px;
+    display:inline-block;
+    margin: 20px 0;
     padding: 10px;
     background-color:#603601;
-    color:#1C0A00 ;
-    
-
+    color: #fff;
+    width: 100px;
+    text-align: center;
+    align-self: flex-end;
 }
 
 
-.img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    padding-top: 0;
-    padding-bottom: 0;
- }
+@media (min-width:768px){
 
- @media (min-width:1024){
-
-    .index__main{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-
-    }
-
-    .oferta__main__section{
-        display: flex;
-        font-family: sans-serif;
-        font-weight: bold;
-        text-align: center;
-        margin: auto;
-        padding: 10px;
-        gap: 15px;
-
-    }
     .index__main__section--products{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-         
+        padding: 20px;
+    
+    }
+    .index__main__section__instrument--product{
+       
+        width: 45%;
+       
+    
+    }
+}
+
+ @media (min-width:1024px){
+
+    .index__main__section--products{
+        padding: 40px;
+    
+    }
+    .index__main__section__instrument--product{
+       
+        width: 22%;
+       
+    
     }
 
     
