@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: var(--marronClaro);
+    background-color: var(--marronIntermedio);
     width: 100%;
     align-items: center;
     padding: 10px;
@@ -18,9 +18,9 @@
 }
 
 .header__seen{
-    border: 1px solid #361500;
+    border: 1px solid #1C0A00;
     background: none;
-    color: #361500;
+    color: #1C0A00;
     padding: 12px;
     border-radius: 7px;
     width: 50px;
@@ -38,19 +38,30 @@
 }
 
 .header__form {
+    flex-direction: column;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+.header__form--user{
+    display: none;
+}
 .header__img__cart {
+    display: flex;
+    justify-content: space-between;
     width: 35px;
 }
 
 .header__nav {
     display: none;
     text-align: center;
+}
+
+.header__herramientas{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 }
 
 .show {
@@ -64,4 +75,89 @@
     padding-bottom:15px;
     text-align: center;
     margin: auto; 
+}
+
+@media (min-width:1024px){
+
+    .header{
+        flex-wrap: nowrap;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .header__logo img{
+        border-radius: 70%;
+        width: 100%;
+    }
+
+    .icono_menu_hamburguesa{
+        display: none;
+    }
+
+    .header__seen{
+        display:none;
+    }
+
+    .header__nav {
+        display:flex;
+        justify-content: space-between;
+        text-align: center;
+        padding-right: 50px;
+        gap: 15px;
+
+  
+    }
+    .header__herramientas{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .header__form--user{
+        display: inline;
+    }
+
+    
+
+}
+
+@media (min-width:768px){
+
+    .header{
+        flex-wrap: nowrap;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .icono_menu_hamburguesa{
+        display: none;
+    }
+
+    .header__seen{
+        display:none;
+    }
+
+    .header__nav {
+        display:flex;
+        justify-content: space-between;
+        text-align: center;
+        padding: 15px;
+        gap: 15px;
+
+  
+    }
+
+    .header__herramientas{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .header__form--user{
+        display: inline;
+    }
+
+    
+
+
+
 }

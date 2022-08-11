@@ -10,7 +10,8 @@
     --roboto: "Roboto", sans-serif;
 }
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
     width:100%;
     background-color: var(--marronClaro);
 }
